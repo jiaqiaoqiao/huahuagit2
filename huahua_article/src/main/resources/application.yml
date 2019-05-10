@@ -1,0 +1,17 @@
+server: 
+  port: 9004
+spring: 
+  application:  
+    name: huahua-article #指定服务名
+  datasource:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.202.128:3306/huahua_article?useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: 1234
+  jpa: 
+    database: MySQL
+    show-sql: true
+#redis
+  redis:
+    host: 192.168.202.128
+    port: 6379

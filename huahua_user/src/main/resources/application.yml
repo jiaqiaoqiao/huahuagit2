@@ -1,0 +1,22 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: huahua-user #指定服务名
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.202.128:3306/huahua_user?useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: 1234
+  jpa:
+    database: MySQL
+    show-sql: true
+
+  redis:
+    host:192.168.202.128
+    port:6379
+
+rabbitmq:
+  host:192.168.202.128
+  username:guest
+  password:guest
